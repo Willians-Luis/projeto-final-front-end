@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.pageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #486083;
+}

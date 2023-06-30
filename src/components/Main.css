@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.cardsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.imagem {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.imagem:hover {
+    border: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.paginacaoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+button {
+    margin: 5px;
+    background-color: rgb(25, 23, 41);
+    color: aquamarine;
+    border: 2px solid aquamarine;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    color: rgb(25, 23, 41);
+    border: 2px solid rgb(25, 23, 41);
+}
